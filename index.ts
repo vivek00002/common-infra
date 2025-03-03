@@ -2,7 +2,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
 // Configuration
-const domainName = "testcase1.duckdns.org";  // Replace with your actual domain
+const domainName = "websitedns.com";
 
 // Create a Route 53 Hosted Zone
 const hostedZone = new aws.route53.Zone("hostedZone", {
